@@ -1,0 +1,112 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: cyan;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 20%;
+  background-color: navy;
+  color: yellow;
+  font-size: 36px;
+}
+
+.belowHeader {
+  height: 15%;
+  border: 1px solid orange;
+}
+
+.gameContainer {
+  display: flex;
+  height: 65%;
+}
+
+.timer {
+  display: flex;
+  height: 15%;
+  width: 7%;
+  border: 1px solid red;
+  background-color: gray;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 75px;
+  border: 1px solid blue;
+  border-radius: 25px;
+  background-color: #222021;
+}
+
+.bombsLeft {
+  display: flex;
+  height: 15%;
+  width: 7%;
+  border: 1px solid red;
+  background-color: gray;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: white;
+}
+
+.newCell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.markBombCell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: orange;
+  color: navy;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bombCell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
